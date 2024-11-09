@@ -1,0 +1,1558 @@
+.topSection {
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.topContentSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topHeadingSection {
+  position: relative;
+  width: 750px;
+  text-align: left;
+}
+
+.topHeadingSection img {
+  width: 170px;
+  height: 140px;
+  position: absolute;
+  top: -25%;
+  left: 15%;
+}
+
+.topHeadingSection h3 {
+  font-family: "EB Garamond", serif;
+  color: #d3b249;
+  font-size: 18px;
+}
+
+.topHeadingSection h1 {
+  font-family: "EB Garamond", serif;
+  color: white;
+  font-size: 70px;
+  letter-spacing: 1px;
+  line-height: 80px;
+}
+
+.topHeadingSection p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.topHeadingSection button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  color: black;
+  font-family: "EB Garamond", serif;
+  background-color: #d3b249;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.845) 3.95px 3.95px 6.6px;
+  font-weight: 600;
+}
+
+.topFormSection {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.topFormSection h3 {
+  font-size: 32px;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+  font-family: "EB Garamond", serif;
+}
+
+.topFormSection p {
+  color: gray;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.topFormSection .priceRangeValue {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.priceRangeValueDigit {
+  color: rgb(181, 154, 1);
+  font-weight: 600;
+}
+
+.topFormSection input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.topFormSection .priceRangeInput {
+  border: none;
+}
+
+.topFormSection .priceRangeInput:active {
+  outline: none;
+  border: none;
+}
+
+.countrySelect {
+  position: relative;
+}
+
+.countrySelect span {
+  display: none;
+}
+
+.countrySelect svg {
+  display: none;
+}
+
+/* .countrySelect2 div:first-child {
+  padding-bottom: 23px;
+} */
+
+.countrySelect2 svg {
+  display: none;
+}
+
+.countrySelect2 span {
+  display: none;
+}
+
+.countrySelect div {
+  width: 170px;
+  padding: 0;
+  padding-left: 1px;
+  margin: 0;
+}
+
+.countrySelectWithPhoneNumberSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.topFormSection div input {
+  margin: 0;
+}
+
+.lookingForSelect {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 1px;
+  height: 35px;
+  padding-left: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: gray;
+}
+
+.topFormSection button {
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+
+.successMessage {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.whyInvestSection {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyInvestContentSection {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.whyInvestContentSection img {
+  width: 48%;
+  height: 470px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.whyInvestHeadingSection {
+  width: 48%;
+}
+
+.whyInvestHeadingSection h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.whyInvestHeadingSection div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  margin-bottom: 7px;
+}
+
+.whyInvestHeadingSection div svg {
+  width: 25px;
+}
+
+.whyInvestHeadingSection div p {
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.whyInvestHeadingSection button {
+  padding: 10px 25px;
+  position: absolute;
+  margin-top: 20px;
+  background-color: #e7cd78;
+  border: none;
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 180px;
+  height: 60px;
+  font-weight: 600;
+  transition: width 0.5s ease, height 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.whyInvestHeadingSection button:hover {
+  height: 70px;
+  width: 190px;
+}
+
+.paymentPlansSection{
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.paymentPlansContentSection{
+  text-align: center;
+}
+
+.paymentPlansContentSection h3{
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.paymentPlansContentSection p{
+  margin-top: 10px;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+}
+
+.paymentGridSection{
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.paymentSingleSection{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.paymentSingleSection img{
+  width: 70px;
+  margin-bottom: 5px;
+}
+
+.paymentSingleSection h4{
+  color: white;
+  font-size: 25px;
+  font-family: "EB Garamond", serif;
+}
+
+.enquireNowBtn{
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px 25px;
+  background-color: #e7cd78;
+  border: none;
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  width: 180px;
+  height: 60px;
+  transition: width 0.5s ease, height 0.5s ease;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.goldenVisaSection {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goldenVisaContentSection {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.goldenVisaHeadingSection {
+  text-align: left;
+  width: 48%;
+  position: relative;
+  background-color: white;
+}
+
+.goldenVisaHeadingSection h1 {
+  font-family: "EB Garamond", serif;
+  position: relative;
+  font-size: 40px;
+  z-index: 10;
+  margin-bottom: 20px;
+}
+
+.goldenVisaContentSection img {
+  border-radius: 5px;
+  width: 48%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.squareImg {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-size: cover;
+  object-fit: cover;
+  top: -50px;
+  left: 10%;
+  z-index: 2;
+  opacity: 1;
+}
+
+.blackCircleImg {
+  position: absolute;
+  opacity: 0.2;
+  width: 100px;
+  height: 100px;
+  top: 70%;
+  left: 40%;
+}
+
+.goldenVisaHeadingSection p {
+  margin-top: 10px;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+  z-index: 10;
+}
+
+.goldenVisaHeadingSection button {
+  padding: 10px 25px;
+  position: absolute;
+  margin-top: 20px;
+  background-color: #e7cd78;
+  border: none;
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 180px;
+  height: 60px;
+  z-index: 10;
+  transition: width 0.5s ease, height 0.5s ease;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.goldenVisaHeadingSection button:hover {
+  height: 70px;
+  width: 190px;
+}
+
+.assistingSection {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assistingContentSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.assistingHeadingSection {
+  width: 60%;
+}
+
+.assistingHeadingSection h1 {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+}
+
+.assistingContentSection button {
+  padding: 20px 35px;
+  border-radius: 10px;
+  background-color: #d3b249;
+  border: none;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.whyChooseUsSection {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyChooseContentSection {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  position: relative;
+}
+
+.whyChooseContentSection div {
+  width: 48%;
+  position: relative;
+}
+
+.whyChooseImgSection {
+  width: 48%;
+}
+
+.sqaure2 {
+  position: absolute;
+  top: -50px;
+  left: -10px;
+}
+
+.whyChooseImg {
+  border-radius: 5px;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 400px;
+}
+
+.whyChooseHeadingSection h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.whyChooseHeadingSection div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.whyChooseHeadingSection div p {
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+}
+
+.rightArrow {
+  width: 20px;
+  height: 20px;
+}
+
+.whyChooseHeadingSection button {
+  padding: 10px 25px;
+  margin-top: 20px;
+  position: absolute;
+  background-color: #e7cd78;
+  border: none;
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 180px;
+  height: 60px;
+  z-index: 10;
+  transition: width 0.5s ease, height 0.5s ease;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.whyChooseHeadingSection button:hover {
+  height: 70px;
+  width: 190px;
+}
+
+.primeLocationSection {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.primeLocationSection h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.primeLocationContentSection {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.primeLocationHeadingSection {
+  text-align: left;
+  width: 48%;
+}
+
+.primeLocationHeadingSection h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.primeLocationHeadingSection div {
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: #e7cd787a;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.primeLocationHeadingSection div p {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+}
+
+.primeLocationHeadingSection button {
+  padding: 10px 25px;
+  position: absolute;
+  margin-top: 20px;
+  background-color: #e7cd78;
+  border: none;
+  border-radius: 10px;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  width: 200px;
+  height: 60px;
+  z-index: 10;
+  font-weight: 600;
+  transition: width 0.5s ease, height 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.primeLocationHeadingSection button:hover {
+  height: 70px;
+  width: 210px;
+}
+
+.primeLocationImgSection {
+  width: 48%;
+  position: relative;
+}
+
+.primeLocationImgSection img {
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.primeLocationImgSection div {
+  position: absolute;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+  left: 36%;
+  top: 93%;
+  border: 2px solid white;
+}
+
+.reachOutSection {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.reactOutContentSection h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+  margin-bottom: 20px;
+}
+
+.reactOutContentSection div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.reactOutContentSection input {
+  padding-left: 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+}
+
+.nameInput {
+  height: 50px;
+}
+
+.reactOutContentSection button {
+  font-size: 20px;
+  height: 40px;
+  background-color: #d3b249;
+  border: none;
+  border-radius: 5px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.reachOutFormSection div {
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-left: 1px;
+  margin-bottom: 1.5px;
+}
+
+.latestPropertiesSection {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.latestPropertiesContentSection h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "EB Garamond", serif;
+  margin-bottom: 20px;
+}
+
+.latestPropertiesGridSection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.propertyCard {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.latestPropertiesGridSection div img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.forSaleSection {
+  background-color: #d3b249;
+  position: absolute;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  top: 7%;
+  left: 75%;
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.latestPropertiesGridSection div h3 {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  width: 90%;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+
+.latestPropertiesGridSection div h4 {
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-right: 5%;
+}
+
+.locationSpecs {
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.latestPropertiesGridSection button {
+  background-color: #d3b249;
+  margin-left: 5%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.takeActionSection {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.takectionContentSection h1 {
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.takectionContentSection p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+}
+
+.takectionContentSection button {
+  padding: 15px 30px;
+  font-size: 17px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d3b249;
+  font-weight: 600;
+}
+
+.teamSection {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.teamContentSection h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.teamContentSection p {
+  text-align: center;
+  color: gray;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.teamGridSection {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 19%);
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.teamGridSection div img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.whatsappSymbol {
+  position: fixed;
+  top: 85vh;
+  left: 93vw;
+  z-index: 100;
+}
+
+.whatsappSymbol a img {
+  width: 50px;
+  height: 50px;
+}
+
+.thankYouSection {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 120;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.thankYouContentSection {
+  width: 90%;
+  background-color: #e7cd78;
+  padding: 20px 100px;
+  text-align: center;
+  border-radius: 10px 10px 10px 0px;
+}
+
+.thankYouContentSection img {
+  width: 190px;
+}
+
+.thankYouContentSection p {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.thankYouContentSection a {
+  margin-top: 20px;
+}
+
+.thankYouContentSection a button {
+  font-family: "EB Garamond", serif;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.homeButton {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  font-family: "EB Garamond", serif;
+}
+
+.notFoundSection {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+
+.notFoundSection a button {
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+}
+
+@media all and (max-width: 1350px) {
+  .container {
+    width: 1050px;
+    margin: auto;
+  }
+
+  .topHeadingSection {
+    position: relative;
+    width: 650px;
+    text-align: left;
+  }
+
+  .topFormSection {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .primeLocationContentSection {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 200px;
+  }
+
+  .forSaleSection {
+    left: 60%;
+  }
+
+  .latestPropertiesGridSection div h3 {
+    top: 30%;
+  }
+
+  .teamGridSection div img {
+    height: 250px;
+  }
+
+  .topHeadingSection img {
+    width: 170px;
+    height: 140px;
+    position: absolute;
+    top: -15%;
+    left: 0%;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+
+  .topHeadingSection {
+    position: relative;
+    width: 500px;
+    text-align: left;
+  }
+
+  .topFormSection {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .topHeadingSection h1 {
+    font-family: "EB Garamond", serif;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 60px;
+  }
+
+  .countrySelect div {
+    width: 150px;
+    padding: 2px;
+    margin: 0;
+  }
+
+  .topFormSection h3 {
+    font-size: 22px;
+  }
+
+  .whyInvestHeadingSection h3 {
+    font-size: 40px;
+  }
+
+  .goldenVisaHeadingSection h1 {
+    font-size: 35px;
+  }
+
+  .goldenVisaContentSection img {
+    height: 500px;
+  }
+
+  .whyChooseImg {
+    height: 350px;
+  }
+
+  .whyChooseHeadingSection h1 {
+    font-size: 40px;
+  }
+
+  .primeLocationSection h1 {
+    font-size: 40px;
+  }
+
+  .primeLocationHeadingSection h2 {
+    font-size: 35px;
+  }
+
+  .primeLocationImgSection img {
+    height: 400px;
+  }
+
+  .primeLocationContentSection {
+    align-items: center;
+    margin-bottom: 150px;
+  }
+
+  .primeLocationImgSection div {
+    left: 33%;
+  }
+
+  .latestPropertiesGridSection div h3 {
+    top: 25%;
+    font-size: 18px;
+  }
+
+  .teamGridSection div img {
+    height: 220px;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .paymentGridSection{
+    grid-template-columns: repeat(2, 49%);
+    row-gap: 15px;
+  }
+
+  .reachOutSection {
+    margin-top: -150px;
+  }
+
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+
+  .topSection {
+    height: 800px;
+  }
+
+  .topContentSection {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .topHeadingSection {
+    width: 100%;
+  }
+
+  .topHeadingSection img {
+    width: 130px;
+    height: 110px;
+    position: absolute;
+    top: -15%;
+    left: 5%;
+  }
+
+  .topFormSection {
+    width: 100%;
+  }
+
+  .whyInvestContentSection {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .whyInvestContentSection img {
+    width: 100%;
+  }
+
+  .whyInvestHeadingSection {
+    width: 100%;
+  }
+
+  .whyInvestSection {
+    padding-bottom: 150px;
+  }
+
+  .goldenVisaContentSection {
+    flex-direction: column;
+    row-gap: 150px;
+  }
+
+  .goldenVisaHeadingSection {
+    width: 100%;
+  }
+
+  .goldenVisaContentSection img {
+    width: 100%;
+  }
+
+  .assistingContentSection {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .assistingHeadingSection {
+    width: 100%;
+    text-align: center;
+  }
+
+  .whyChooseUsSection {
+    margin-bottom: 200px;
+  }
+
+  .whyChooseContentSection {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .whyChooseContentSection div {
+    width: 100%;
+    position: relative;
+  }
+
+  .whyChooseImgSection {
+    width: 100%;
+  }
+
+  .whyChooseImg {
+    height: 450px;
+  }
+
+  .primeLocationContentSection {
+    flex-direction: column;
+    row-gap: 100px;
+    margin-bottom: 200px;
+  }
+
+  .primeLocationHeadingSection {
+    text-align: left;
+    width: 100%;
+  }
+
+  .primeLocationImgSection {
+    width: 100%;
+  }
+
+  .primeLocationImgSection img {
+    height: 500px;
+  }
+
+  .primeLocationImgSection div {
+    left: 37.5%;
+  }
+
+  .latestPropertiesGridSection {
+    grid-template-columns: repeat(2, 49%);
+    row-gap: 30px;
+  }
+
+  .teamGridSection {
+    grid-template-columns: repeat(2, 49%);
+    row-gap: 80px;
+    margin-top: 40px;
+  }
+
+  .teamGridSection div img {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .paymentPlansContentSection h3{
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .countrySelect2 div:first-child {
+    padding-bottom: 0px;
+  }
+
+  .reachOutFormSection div {
+    margin-bottom: 0px;
+  }
+
+  .thankYouContentSection p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .thankYouContentSection {
+    width: 95%;
+    padding: 20px 30px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .topHeadingSection h3 {
+    font-size: 15px;
+  }
+
+  .topHeadingSection h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .topHeadingSection p {
+    font-size: 17px;
+  }
+
+  .topHeadingSection button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .topHeadingSection img {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -5%;
+    left: 0%;
+  }
+
+  .whyInvestContentSection img {
+    height: 400px;
+  }
+
+  .whyInvestHeadingSection h3 {
+    font-size: 30px;
+  }
+
+  .whyInvestHeadingSection div svg {
+    width: 20px;
+  }
+
+  .whyInvestHeadingSection div p {
+    font-family: "Roboto", sans-serif;
+    color: gray;
+  }
+
+  .whyInvestHeadingSection button {
+    padding: 8px 15px;
+    font-size: 18px;
+  }
+
+  .assistingHeadingSection h1 {
+    font-size: 30px;
+  }
+
+  .assistingContentSection button {
+    padding: 18px 30px;
+    font-size: 18px;
+  }
+
+  .whyChooseImg {
+    height: 350px;
+  }
+
+  .whyChooseHeadingSection h1 {
+    font-size: 30px;
+  }
+
+  .primeLocationSection h1 {
+    font-size: 35px;
+  }
+
+  .primeLocationHeadingSection h2 {
+    font-size: 25px;
+  }
+
+  .primeLocationImgSection img {
+    height: 350px;
+  }
+
+  .primeLocationImgSection div {
+    position: absolute;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    left: 37%;
+    top: 93%;
+    border: 2px solid white;
+  }
+
+  .reactOutContentSection h1 {
+    font-size: 30px;
+  }
+
+  .reactOutContentSection div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .reactOutContentSection div img {
+    position: relative;
+    top: 10px;
+  }
+
+  .css-b62m3t-container {
+    width: 100%;
+  }
+
+  .reactOutContentSection input {
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+  }
+
+  .reactOutContentSection button {
+    font-size: 15px;
+    background-color: #d3b249;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .latestPropertiesContentSection h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+    margin-bottom: 20px;
+  }
+
+  .latestPropertiesGridSection div h3 {
+    top: 25%;
+    font-size: 17px;
+  }
+
+  .latestPropertiesGridSection div h4 {
+    font-size: 17px;
+  }
+
+  .takectionContentSection h1 {
+    font-size: 30px;
+  }
+
+  .teamContentSection h1 {
+    font-size: 30px;
+  }
+
+  .teamGridSection div img {
+    height: 280px;
+  }
+
+  .whatsappSymbol {
+    position: fixed;
+    top: 80vh;
+    left: 80vw;
+    z-index: 100;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .paymentPlansContentSection h3{
+    font-family: "EB Garamond", serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .paymentGridSection{
+    width: 100%;
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 15px;
+  }
+
+  .reachOutSection {
+    margin-top: -150px;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  .topSection {
+    height: 900px;
+  }
+
+  .topHeadingSection h3 {
+    font-size: 13px;
+  }
+
+  .topHeadingSection h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .topHeadingSection p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .topHeadingSection button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .topHeadingSection img {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+
+  .countrySelect div {
+    width: 260px;
+    padding: 0;
+    padding-left: 3px;
+    margin: 0;
+  }
+
+  .countrySelectWithPhoneNumberSection {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .whyInvestContentSection img {
+    height: 300px;
+  }
+
+  .whyInvestHeadingSection div {
+    margin-bottom: 10px;
+  }
+
+  .whyInvestHeadingSection div svg {
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+  .whyInvestHeadingSection div p {
+    font-size: 15px;
+  }
+
+  .goldenVisaHeadingSection h1 {
+    font-size: 30px;
+  }
+
+  .goldenVisaContentSection img {
+    height: 300px;
+  }
+
+  .whyChooseImg {
+    height: 270px;
+  }
+
+  .primeLocationImgSection img {
+    height: 280px;
+  }
+
+  .primeLocationImgSection div {
+    position: absolute;
+    padding: 10px 15px 10px 15px;
+    font-size: 13px;
+    left: 31%;
+  }
+
+  .reactOutContentSection div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .reactOutContentSection input {
+    width: 100%;
+  }
+
+  .latestPropertiesGridSection {
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 30px;
+  }
+
+  .teamGridSection {
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 80px;
+    margin-top: 40px;
+  }
+
+  .teamGridSection div img {
+    height: 300px;
+  }
+}

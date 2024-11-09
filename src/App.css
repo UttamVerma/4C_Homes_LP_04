@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+*::selection {
+  background-color: #d3b249;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: 1px solid rgb(207, 206, 206);
+}
+
+html,body {
+  overflow-x: hidden;
+}
+
+select {
+  background-color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  appearance: none;
+  -moz-appearance: textfield;
+}

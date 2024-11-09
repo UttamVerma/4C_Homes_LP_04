@@ -1,0 +1,168 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerContainer {
+  width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.footerContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerContainer div h2 {
+  color: #d3b249;
+  font-family: "EB Garamond", serif;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.footerContainer div:nth-child(2) p {
+  cursor: pointer;
+}
+
+.footerContainer div p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.socialSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.socialSection div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #d3b249;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialSection div img {
+  width: 25px;
+  height: 25px;
+}
+
+.footerContainer div:nth-child(3) a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footerContainer div:nth-child(3) a img {
+  width: 20px;
+  height: 20px;
+}
+
+.footerForm {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #d3b249;
+}
+
+.footerForm h3 {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.footerForm input {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.footerForm select {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.footerForm button {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.countrySelect{
+  margin-bottom: 10px;
+}
+
+.footerForm .priceRangeValue{
+  margin: 0;
+  margin-bottom: -1px;
+  color: black;
+}
+
+.priceRangeValueDigit{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.footerForm .priceRangeInput{
+  margin-bottom: -1px;
+}
+
+@media all and (max-width: 1350px){
+  .footerContainer {
+    width: 1050px;
+  }
+}
+
+@media all and (max-width: 1100px){
+  .footerContainer {
+    width: 900px;
+    grid-template-columns: repeat(2, 48%);
+    row-gap: 50px;
+  }
+}
+
+@media all and (max-width: 950px){
+  .footerContainer {
+    width: 700px;
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 50px;
+  }
+}
+
+@media all and (max-width: 750px){
+  .footerContainer {
+    width: 500px;
+  }
+
+  .footerContainer div h2 {
+    font-size: 30px;
+  }
+}
+
+@media all and (max-width: 550px){
+  .footerContainer {
+    width: 300px;
+  }
+}

@@ -1,0 +1,22 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.573);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 110;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  font-size: 20px;
+}
+
+.showLoading {
+  opacity: 1;
+  visibility: visible;
+}

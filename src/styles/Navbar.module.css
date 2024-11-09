@@ -1,0 +1,226 @@
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logoSection {
+  width: 200px;
+}
+
+.logoSection img {
+  width: 179px;
+  height: 39px;
+}
+
+.optionsSection {
+  width: 500px;
+  letter-spacing: 0.6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionsSection div {
+  transition: color 1s ease, text-decoration 3s ease, opacity 1s ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.optionsSection div::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  opacity: 0;
+  width: 120%;
+  margin-left: -10%;
+  height: 2px;
+  background-color: black;
+  transition: width 1s ease, opacity 0.5s ease;
+}
+
+.optionsSection div:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.optionsSection div:hover::after {
+  width: 120%;
+  opacity: 1;
+}
+
+.callSection {
+  width: 200px;
+}
+
+.callSection a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+.callSection a svg {
+  width: 25px;
+}
+
+.hamburgerSection {
+  width: 30px;
+  height: 30px;
+  background-color: #d3b249;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburgerMenuSection {
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  z-index: 100;
+  transform: rotateX(-0.25turn);
+  transition: transform 0.5s ease, visibility 0.5s ease;
+  visibility: hidden;
+}
+
+.showHamburgerMenu {
+  visibility: visible;
+  transform: rotateX(0);
+}
+
+.hamburgerMenuSection div {
+  width: 100%;
+  border-bottom: 1px solid rgb(114, 113, 113);
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.hamburgerMenuSection div a {
+  color: white;
+  border: none;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1350px) {
+  .container {
+    width: 1050px;
+    margin: auto;
+  }
+
+  .optionsSection {
+    width: 450px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+
+  .optionsSection {
+    width: 400px;
+    font-size: 14px;
+  }
+
+  .logoSection {
+    width: 150px;
+  }
+
+  .logoSection img {
+    width: 150px;
+    height: 30px;
+  }
+
+  .callSection {
+    width: 170px;
+  }
+
+  .callSection a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+  }
+
+  .callSection a svg {
+    width: 20px;
+  }
+
+  .optionsSection div:hover::after {
+    width: 110%;
+    opacity: 1;
+  }
+
+  .optionsSection div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    opacity: 0;
+    width: 110%;
+    margin-left: -5%;
+    height: 2px;
+    background-color: black;
+    transition: width 1s ease, opacity 0.5s ease;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+
+  .optionsSection {
+    display: none;
+  }
+
+  .callSection {
+    display: none;
+  }
+
+  .hamburgerSection {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .container {
+    width: 300px;
+  }
+}
